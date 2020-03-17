@@ -31,6 +31,7 @@
 		82C5BE812420729E00940EF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82C5BE892420887600940EF3 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
 		82C5BE8A2420887600940EF3 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		82C5BE8D2420926800940EF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F8AEB470A80A14957598F39A /* Pods-Fonts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fonts.debug.xcconfig"; path = "Target Support Files/Pods-Fonts/Pods-Fonts.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +58,7 @@
 		82C5BE672420729C00940EF3 = {
 			isa = PBXGroup;
 			children = (
+				82C5BE8D2420926800940EF3 /* README.md */,
 				82C5BE872420884C00940EF3 /* Resources */,
 				82C5BE722420729C00940EF3 /* Fonts */,
 				82C5BE712420729C00940EF3 /* Products */,

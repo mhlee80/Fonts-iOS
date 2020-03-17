@@ -10,34 +10,6 @@ import UIKit
 import SnapKit
 
 class ViewController: UIViewController {
-
-  private lazy var systemFontLabel: UILabel = {
-    let v = UILabel()
-    v.backgroundColor = .white
-    v.textColor = .black
-    v.font = .systemFont(ofSize: 24)
-    v.text = "System 안녕하세요 Hello 12345"
-    return v
-  }()
-  
-  private lazy var latoFontLabel: UILabel = {
-    let v = UILabel()
-    v.backgroundColor = .white
-    v.textColor = .black
-    v.font = .systemFont(ofSize: 24)
-    v.text = "Lato 안녕하세요 Hello 12345"
-    return v
-  }()
-  
-  private lazy var notoSansFontLabel: UILabel = {
-    let v = UILabel()
-    v.backgroundColor = .white
-    v.textColor = .black
-    v.font = .systemFont(ofSize: 24)
-    v.text = "Noto Sans 안녕하세요 Hello 12345"
-    return v
-  }()
-  
   private lazy var tableView: UITableView = {
     let v = UITableView()
     return v
@@ -48,20 +20,13 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view.
     
     view.backgroundColor = .white
-  
+
     view.addSubview(tableView)
-//    view.addSubview(systemFontLabel)
-//    view.addSubview(latoFontLabel)
-//    view.addSubview(notoSansFontLabel)
   
     tableView.snp.makeConstraints { make in
       make.top.left.bottom.right.equalTo(view.safeAreaLayoutGuide)
     }
     
-//    latoFontLabel.snp.makeConstraints { make in
-//      make.top.equalTo(systemFontLabel.snp.bottom)
-//    }
-
     tableView.dataSource = self
     tableView.delegate = self
     
