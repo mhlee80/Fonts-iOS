@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82B93DED2458494600DA6383 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82B93DEC2458492F00DA6383 /* Lato-Bold.ttf */; };
 		82C5BE742420729C00940EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BE732420729C00940EF3 /* AppDelegate.swift */; };
 		82C5BE762420729C00940EF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BE752420729C00940EF3 /* SceneDelegate.swift */; };
 		82C5BE782420729C00940EF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BE772420729C00940EF3 /* ViewController.swift */; };
@@ -15,12 +16,19 @@
 		82C5BE802420729E00940EF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BE7E2420729E00940EF3 /* LaunchScreen.storyboard */; };
 		82C5BE8B2420888A00940EF3 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BE8A2420887600940EF3 /* Lato-Regular.ttf */; };
 		82C5BE8C242088A900940EF3 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82C5BE892420887600940EF3 /* NotoSansCJKkr-Regular.otf */; };
+		82E055042494773A0083F8DF /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82E05501249477320083F8DF /* NotoSansKR-Black.otf */; };
+		82E055052494773A0083F8DF /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82E054FF249477320083F8DF /* NotoSansKR-Bold.otf */; };
+		82E055062494773A0083F8DF /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82E05502249477320083F8DF /* NotoSansKR-Light.otf */; };
+		82E055072494773A0083F8DF /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82E05503249477320083F8DF /* NotoSansKR-Medium.otf */; };
+		82E055082494773A0083F8DF /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82E054FE249477320083F8DF /* NotoSansKR-Regular.otf */; };
+		82E055092494773A0083F8DF /* NotoSansKR-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82E05500249477320083F8DF /* NotoSansKR-Thin.otf */; };
 		9EF5E4775EBAA5BE7F966EDF /* Pods_Fonts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8BB3114611EF356E46C962 /* Pods_Fonts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6CA5FBC29810D23AB481BBF1 /* Pods-Fonts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fonts.release.xcconfig"; path = "Target Support Files/Pods-Fonts/Pods-Fonts.release.xcconfig"; sourceTree = "<group>"; };
 		7A8BB3114611EF356E46C962 /* Pods_Fonts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fonts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B93DEC2458492F00DA6383 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		82C5BE702420729C00940EF3 /* Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C5BE732420729C00940EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82C5BE752420729C00940EF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +40,12 @@
 		82C5BE892420887600940EF3 /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
 		82C5BE8A2420887600940EF3 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		82C5BE8D2420926800940EF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		82E054FE249477320083F8DF /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		82E054FF249477320083F8DF /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		82E05500249477320083F8DF /* NotoSansKR-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Thin.otf"; sourceTree = "<group>"; };
+		82E05501249477320083F8DF /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
+		82E05502249477320083F8DF /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Light.otf"; sourceTree = "<group>"; };
+		82E05503249477320083F8DF /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
 		F8AEB470A80A14957598F39A /* Pods-Fonts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fonts.debug.xcconfig"; path = "Target Support Files/Pods-Fonts/Pods-Fonts.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +115,14 @@
 			isa = PBXGroup;
 			children = (
 				82C5BE8A2420887600940EF3 /* Lato-Regular.ttf */,
+				82B93DEC2458492F00DA6383 /* Lato-Bold.ttf */,
 				82C5BE892420887600940EF3 /* NotoSansCJKkr-Regular.otf */,
+				82E05501249477320083F8DF /* NotoSansKR-Black.otf */,
+				82E054FF249477320083F8DF /* NotoSansKR-Bold.otf */,
+				82E05502249477320083F8DF /* NotoSansKR-Light.otf */,
+				82E05503249477320083F8DF /* NotoSansKR-Medium.otf */,
+				82E054FE249477320083F8DF /* NotoSansKR-Regular.otf */,
+				82E05500249477320083F8DF /* NotoSansKR-Thin.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -175,10 +196,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E055092494773A0083F8DF /* NotoSansKR-Thin.otf in Resources */,
+				82E055082494773A0083F8DF /* NotoSansKR-Regular.otf in Resources */,
 				82C5BE7D2420729E00940EF3 /* Assets.xcassets in Resources */,
+				82B93DED2458494600DA6383 /* Lato-Bold.ttf in Resources */,
+				82E055072494773A0083F8DF /* NotoSansKR-Medium.otf in Resources */,
+				82E055052494773A0083F8DF /* NotoSansKR-Bold.otf in Resources */,
 				82C5BE802420729E00940EF3 /* LaunchScreen.storyboard in Resources */,
 				82C5BE7B2420729C00940EF3 /* Main.storyboard in Resources */,
 				82C5BE8B2420888A00940EF3 /* Lato-Regular.ttf in Resources */,
+				82E055062494773A0083F8DF /* NotoSansKR-Light.otf in Resources */,
+				82E055042494773A0083F8DF /* NotoSansKR-Black.otf in Resources */,
 				82C5BE8C242088A900940EF3 /* NotoSansCJKkr-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
