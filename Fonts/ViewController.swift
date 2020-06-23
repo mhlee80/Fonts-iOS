@@ -43,7 +43,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDataSource {
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 10
+    return 14
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -91,7 +91,23 @@ extension ViewController: UITableViewDataSource {
       cell.textLabel?.font = UIFont(name: "NotoSansKR-Thin", size: 30)
       cell.textLabel?.numberOfLines = 2
       cell.textLabel?.text = "NotoSansKR-Thin\n안녕하세요 Hello 12345"
-      
+    case 10:
+      cell.textLabel?.font = UIFont(name: "SpoqaHanSans-Bold", size: 30)
+      cell.textLabel?.numberOfLines = 2
+      cell.textLabel?.text = "SpoqaHanSans-Bold\n안녕하세요 Hello 12345"
+    case 11:
+      cell.textLabel?.font = UIFont(name: "SpoqaHanSans-Thin", size: 30)
+      cell.textLabel?.numberOfLines = 2
+      cell.textLabel?.text = "SpoqaHanSans-Thin\n안녕하세요 Hello 12345"
+    case 12:
+      cell.textLabel?.font = UIFont(name: "SpoqaHanSans-Regular", size: 30)
+      cell.textLabel?.numberOfLines = 2
+      cell.textLabel?.text = "SpoqaHanSans-Regular\n안녕하세요 Hello 12345"
+    case 13:
+      cell.textLabel?.font = UIFont(name: "SpoqaHanSans-Light", size: 30)
+      cell.textLabel?.numberOfLines = 2
+      cell.textLabel?.text = "SpoqaHanSans-Light\n안녕하세요 Hello 12345"
+    
     default:
       break
     }
@@ -99,13 +115,6 @@ extension ViewController: UITableViewDataSource {
     return cell
   }
 }
-
-//== NotoSansKR-Bold
-//== NotoSansKR-Thin
-//== NotoSansKR-Black
-//== NotoSansKR-Light
-//== NotoSansKR-Medium
-//== NotoSansKR-Regular
 
 extension ViewController: UITableViewDelegate {
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

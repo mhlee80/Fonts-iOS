@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		822DE3E524A1E21E001695C5 /* Spoqa Han Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 822DE3E324A1E214001695C5 /* Spoqa Han Sans Bold.ttf */; };
+		822DE3E624A1E21E001695C5 /* Spoqa Han Sans Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 822DE3E124A1E214001695C5 /* Spoqa Han Sans Light.ttf */; };
+		822DE3E724A1E21E001695C5 /* Spoqa Han Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 822DE3E224A1E214001695C5 /* Spoqa Han Sans Regular.ttf */; };
+		822DE3E824A1E21E001695C5 /* Spoqa Han Sans Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 822DE3E424A1E214001695C5 /* Spoqa Han Sans Thin.ttf */; };
 		82B93DED2458494600DA6383 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82B93DEC2458492F00DA6383 /* Lato-Bold.ttf */; };
 		82C5BE742420729C00940EF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BE732420729C00940EF3 /* AppDelegate.swift */; };
 		82C5BE762420729C00940EF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5BE752420729C00940EF3 /* SceneDelegate.swift */; };
@@ -28,6 +32,10 @@
 /* Begin PBXFileReference section */
 		6CA5FBC29810D23AB481BBF1 /* Pods-Fonts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fonts.release.xcconfig"; path = "Target Support Files/Pods-Fonts/Pods-Fonts.release.xcconfig"; sourceTree = "<group>"; };
 		7A8BB3114611EF356E46C962 /* Pods_Fonts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fonts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		822DE3E124A1E214001695C5 /* Spoqa Han Sans Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Light.ttf"; sourceTree = "<group>"; };
+		822DE3E224A1E214001695C5 /* Spoqa Han Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Regular.ttf"; sourceTree = "<group>"; };
+		822DE3E324A1E214001695C5 /* Spoqa Han Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Bold.ttf"; sourceTree = "<group>"; };
+		822DE3E424A1E214001695C5 /* Spoqa Han Sans Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spoqa Han Sans Thin.ttf"; sourceTree = "<group>"; };
 		82B93DEC2458492F00DA6383 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		82C5BE702420729C00940EF3 /* Fonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C5BE732420729C00940EF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +131,10 @@
 				82E05503249477320083F8DF /* NotoSansKR-Medium.otf */,
 				82E054FE249477320083F8DF /* NotoSansKR-Regular.otf */,
 				82E05500249477320083F8DF /* NotoSansKR-Thin.otf */,
+				822DE3E324A1E214001695C5 /* Spoqa Han Sans Bold.ttf */,
+				822DE3E124A1E214001695C5 /* Spoqa Han Sans Light.ttf */,
+				822DE3E224A1E214001695C5 /* Spoqa Han Sans Regular.ttf */,
+				822DE3E424A1E214001695C5 /* Spoqa Han Sans Thin.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -198,15 +210,19 @@
 			files = (
 				82E055092494773A0083F8DF /* NotoSansKR-Thin.otf in Resources */,
 				82E055082494773A0083F8DF /* NotoSansKR-Regular.otf in Resources */,
+				822DE3E724A1E21E001695C5 /* Spoqa Han Sans Regular.ttf in Resources */,
 				82C5BE7D2420729E00940EF3 /* Assets.xcassets in Resources */,
 				82B93DED2458494600DA6383 /* Lato-Bold.ttf in Resources */,
 				82E055072494773A0083F8DF /* NotoSansKR-Medium.otf in Resources */,
+				822DE3E824A1E21E001695C5 /* Spoqa Han Sans Thin.ttf in Resources */,
 				82E055052494773A0083F8DF /* NotoSansKR-Bold.otf in Resources */,
 				82C5BE802420729E00940EF3 /* LaunchScreen.storyboard in Resources */,
 				82C5BE7B2420729C00940EF3 /* Main.storyboard in Resources */,
+				822DE3E624A1E21E001695C5 /* Spoqa Han Sans Light.ttf in Resources */,
 				82C5BE8B2420888A00940EF3 /* Lato-Regular.ttf in Resources */,
 				82E055062494773A0083F8DF /* NotoSansKR-Light.otf in Resources */,
 				82E055042494773A0083F8DF /* NotoSansKR-Black.otf in Resources */,
+				822DE3E524A1E21E001695C5 /* Spoqa Han Sans Bold.ttf in Resources */,
 				82C5BE8C242088A900940EF3 /* NotoSansCJKkr-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
